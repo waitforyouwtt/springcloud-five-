@@ -1,0 +1,9 @@
+server:
+  port: 8763
+
+eureka:
+  instance:
+    appname: eureka-client
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8762/eureka/
