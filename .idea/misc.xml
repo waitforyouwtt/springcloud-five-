@@ -3,10 +3,11 @@
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
-        <option value="$PROJECT_DIR$/../springcloud/pom.xml" />
-        <option value="$PROJECT_DIR$/../springcloud/common/pom.xml" />
-        <option value="$PROJECT_DIR$/../springcloud/eureka-client/pom.xml" />
-        <option value="$PROJECT_DIR$/../springcloud/eureka-server/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/common/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-client/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-server/pom.xml" />
+        <option value="$PROJECT_DIR$/../springcloud/eureka-ribbon-client/pom.xml" />
       </list>
     </option>
   </component>

@@ -16,7 +16,7 @@ public class IndexController {
     @Value("${server.port}")
     String port;
 
-    @GetMapping("/index")
+    @GetMapping("/hi")
     public String home(@RequestParam String name){
         return "hi:"+name+"how are you?"+port;
     }
