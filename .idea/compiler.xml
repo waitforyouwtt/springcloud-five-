@@ -9,6 +9,7 @@
         <module name="common" />
         <module name="eureka-client" />
         <module name="eureka-feign-client" />
+        <module name="eureka-monitor-client" />
         <module name="eureka-ribbon-client" />
         <module name="eureka-server" />
         <module name="ribbon-client" />
@@ -18,6 +19,7 @@
       <module name="common" target="1.8" />
       <module name="eureka-client" target="1.8" />
       <module name="eureka-feign-client" target="1.8" />
+      <module name="eureka-monitor-client" target="1.8" />
       <module name="eureka-ribbon-client" target="1.8" />
       <module name="eureka-server" target="1.8" />
       <module name="ribbon-client" target="1.8" />
