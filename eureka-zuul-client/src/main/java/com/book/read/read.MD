@@ -29,5 +29,12 @@
     由的服务"eureka-client","*"则代表所有的服务。代码中用*。
     
  访问：[http://localhost:5000/v1/hiapi/hi?name=jie](想看效果，关闭一个服务即可)
+ #### zuul 上使用过滤器
+ 1.zuul 实现过滤器只需要集成ZuulFilter，并实现ZuulFilter 中的抽象方法，filterType() 和 filterOrder()
+   是过滤器的类型，共有四种：pre 过滤器   routing 过滤器   post 过滤器   error 过滤器
+   filterOrder() 是过滤顺序，它是一个int 类型的值，值越小，越早执行该过滤器
+   shouldFilter() 表示该过滤器是否过滤逻辑，如果为true,则执行 run()方法，如果未false ，则不执行run()方法，run()
+   方法写具体的过滤逻辑。
+ 访问：[http://localhost:5000/v1/hiapi/hi?name=jie&token=2345](可以正常访问，去掉token则不可以访问，这就是过滤器)  
 
 
