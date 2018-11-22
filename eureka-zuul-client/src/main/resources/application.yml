@@ -20,3 +20,4 @@ zuul:
     feignapi:
       path: /feignapi/**
       serviceId: eureka-feign-client
+zuul.prefix: /v1
