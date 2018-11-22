@@ -12,6 +12,7 @@
         <module name="eureka-monitor-client" />
         <module name="eureka-ribbon-client" />
         <module name="eureka-server" />
+        <module name="eureka-zuul-client" />
         <module name="ribbon-client" />
       </profile>
     </annotationProcessing>
@@ -22,6 +23,7 @@
       <module name="eureka-monitor-client" target="1.8" />
       <module name="eureka-ribbon-client" target="1.8" />
       <module name="eureka-server" target="1.8" />
+      <module name="eureka-zuul-client" target="1.8" />
       <module name="ribbon-client" target="1.8" />
       <module name="springcloud" target="1.8" />
     </bytecodeTargetLevel>

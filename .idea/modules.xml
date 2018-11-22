@@ -5,9 +5,10 @@
       <module fileurl="file://$PROJECT_DIR$/common/common.iml" filepath="$PROJECT_DIR$/common/common.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-client/eureka-client.iml" filepath="$PROJECT_DIR$/eureka-client/eureka-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-feign-client/eureka-feign-client.iml" filepath="$PROJECT_DIR$/eureka-feign-client/eureka-feign-client.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../springcloud/eureka-monitor-client/eureka-monitor-client.iml" filepath="$PROJECT_DIR$/../springcloud/eureka-monitor-client/eureka-monitor-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-monitor-client/eureka-monitor-client.iml" filepath="$PROJECT_DIR$/eureka-monitor-client/eureka-monitor-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-ribbon-client/eureka-ribbon-client.iml" filepath="$PROJECT_DIR$/eureka-ribbon-client/eureka-ribbon-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../springcloud/eureka-zuul-client/eureka-zuul-client.iml" filepath="$PROJECT_DIR$/../springcloud/eureka-zuul-client/eureka-zuul-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/ribbon-client/ribbon-client.iml" filepath="$PROJECT_DIR$/ribbon-client/ribbon-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud.iml" filepath="$PROJECT_DIR$/springcloud.iml" />
     </modules>
